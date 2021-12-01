@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+
+  <schema id="org.gnome.shell.extensions.CPU-RAM_Monitor"
+    path="/org/gnome/shell/extensions/CPU-RAM_Monitor/">
+
+    <key name="show-cpu" type="b">
+      <default>true</default>
+      <summary>Show CPU usage</summary>
+      <description>Shows CPU usage.</description>
+    </key>
+    
+    <key name="show-ram" type="b">
+      <default>true</default>
+      <summary>Show RAM usage</summary>
+      <description>Shows RAM usage.</description>
+    </key>
+    
+    <key name="pos-left" type="b">
+      <default>true</default>
+      <summary>Position extension on the left</summary>
+      <description>Sets the position of the extension to the left side.</description>
+    </key>
+
+  </schema>
+</schemalist>
